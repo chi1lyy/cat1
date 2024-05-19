@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Bradley Hand, cursive; 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-transform: none;
+}
+
+.content {
+    font-size: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    font-family: Bradley Hand, cursive; 
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center; 
+    margin-left: 20px;  
+    box-shadow: 2px 1px 5px black;
+    background-color: #E0908D;
+    cursor: pointer;
+}
+
+.two{
+    cursor: not-allowed;
+}
+ .two:active {
+    content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  animation: sayyes 60s;
+  margin: 0;
+ }
+ @keyframes sayyes {
+    0% {
+      background-image: url(yes.jpg);
+    }    
+ }
+
+ .image{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+   
+ }
+
+ .footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Bradley Hand, cursive; 
+    font-size: 25px; 
+ }
+ 
